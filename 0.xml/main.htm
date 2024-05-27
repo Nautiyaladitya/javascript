@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ 
+    <script>
+        var xttp = new XMLHttpRequest();
+        xttp.onreadystatechange = function(){
+
+            if(this.readystate == 4 && this.status == 20)
+            myfunction(this);
+        };
+        xhttp.open("GET", "note.xml",true);
+        xttp.send();
+
+        function myfunction(xml){
+            var xmlDoc = xml.responseXML;
+            document.getElementsById("demo").innerHTML= xmlDoc.getElementsByTagName("titel") [0].childNodes[0].nodeValue;
+            
+        }
+
+    </script>
+</body>
+</html>
