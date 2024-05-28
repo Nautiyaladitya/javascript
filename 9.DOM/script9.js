@@ -18,9 +18,9 @@ let pgf = document.getElementsByTagName("p");
 console.dir(pgf);
 
 let elements = document.querySelector("#hero"); // #Id || .Class || Tag --> can select everything ! but only 1st element
-console.dir(hero);
+console.dir(hero.tagName);
+
 
 let allelements = document.querySelectorAll("p"); // #Id || .Class || Tag --> can select everything ! all the nodes!!
 console.dir(p);
-
 
