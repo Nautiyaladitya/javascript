@@ -15,6 +15,7 @@ console.log(p);
 console.log(p.setAttribute("class","newPara")); // (att.(eg class /id) , value) to set/change the attribute value !
                                                  // changed the classs name from para to newPara
 
+    // DOM STYLES   
 
  let box = document.querySelector(".box");
  div.style.backgroundColor="purple";   // style -> changing the css dynamically !!
@@ -23,8 +24,6 @@ console.log(p.setAttribute("class","newPara")); // (att.(eg class /id) , value) 
 
  div.innerText="I'm the DIV";
 
- div.style.visibility="hidden";
- let idvs = document.querySelector(".box");
-console.log(divs.textContent);
+//  div.style.visibility="hidden"; // this prop. hides the visibility of the html element 
 
 
