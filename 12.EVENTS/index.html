@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+         <!-- this event will not happen as we have handeled it in js file which has higher precidence than inline !  -->
+    <button id="btn1" console.log('button was clicked !'); alert('button pressed!')">click me!!</button> 
+
+    <div id="mydiv" style=" height: 10px; width: 30%; 
+
+    background-color: bisque;    /* Inline css has higher precidence than css file !*/
+    color: rgb(76, 0, 252);
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px  ;
+    padding: 30px ;
+    padding-bottom: 40px;
+    margin-top: 5%;"
+    > 
+    
+    hello , div here! </div>
+
+    <button id="mybtn" style="background-color: rgb(27, 231, 129);    /* Inline css has higher precidence than css file !*/
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border: 2px solid black;
+    margin: 5%;"
+    > okay </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
