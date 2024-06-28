@@ -1,0 +1,16 @@
+.dark{
+    color: white;
+    background-color: black;
+}
+.light{
+    color: black;
+    background-color: white;
+}
+
+button{
+    color:rgb(0, 0, 0);
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px ;
+}

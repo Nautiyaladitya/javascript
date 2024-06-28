@@ -27,7 +27,7 @@ div.onmouseover = () =>{
 // };
 
 
-//             addEventListner !
+//     addEventListner ! -->  we can add multiple event calls on a single event which is better as function gets override after once called !!
 
 let mybtn = document.querySelector("#mybtn");
 mybtn.addEventListener("click", ()=>{
@@ -43,7 +43,8 @@ const handler3 = ()=>{
 };
 mybtn.addEventListener("click", handler3);
 
-//          removeEventListner !
-mybtn.removeEventListener("click",handler3);
+
+//     removeEventListner !
+mybtn.removeEventListener("click",handler3); // remove the event which is passed as variable !
 
 
